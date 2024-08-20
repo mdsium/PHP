@@ -14,3 +14,13 @@ $array2 = array(0=>"pineapple", 2=>"grape", 4=>"kiwi");
 $result = array_replace($array1, $array2);
 print_r($result);
 ?>
+
+<?php
+$array1 = array("apple", "banana", "orange", "mango");
+$array2 = array(0=>"pineapple", 2=>"grape", 4=>"kiwi");
+$array3 = array(0=>"watermelon", 1=>"papaya");
+
+// Performing array replacement
+$result = array_replace($array1, $array2, $array3);
+print_r($result);
+?>
