@@ -18,3 +18,5 @@ reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 
 -- select section sql command 
 SELECT * FROM table_name
+-- using where for specific id or name
+SELECT column_name(s) FROM table_name WHERE column_name operator value
