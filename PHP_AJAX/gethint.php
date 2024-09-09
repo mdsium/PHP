@@ -1,3 +1,4 @@
+<?php
 // Array with names 
 $a[] = "Anna";
 $a[] = "Brittany";
@@ -52,3 +53,4 @@ if ($q !== "") {
 
 // Output "no suggestion" if no hint was found or output correct values
 echo $hint === "" ? "no suggestion" : $hint;
+?>
