@@ -23,10 +23,10 @@ function showUser(str) {
 <form>
 <select name="users" onchange="showUser(this.value)">
 <option value="">Select a person:</option>
-<option value="1">Peter Griffin</option>
-<option value="2">Lois Griffin</option>
-<option value="3">Joseph Swanson</option>
-<option value="4">Glenn Quagmire</option>
+<option value="1">person 1</option>
+<option value="2">person 2</option>
+<option value="3">person 3</option>
+<option value="4">person 4</option>
 </select>
 </form>
 <br>
