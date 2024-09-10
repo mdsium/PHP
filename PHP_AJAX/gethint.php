@@ -30,6 +30,7 @@ $a[] = "Elizabeth";
 $a[] = "Ellen";
 $a[] = "Wenche";
 $a[] = "Vicky";
+$a[] = "sium";
 
 // get the q parameter from URL
 $q = $_REQUEST["q"];
